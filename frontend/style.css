@@ -99,3 +99,95 @@ textarea {
   font-style: italic;
   color: #9ca3af;
 }
+
+/* Reset & Body */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0b12;
+  color: #f0f0f0;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #42a5f5;
+}
+
+.cta-button {
+  background-color: #7c3aed;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 30px;
+  background-image: radial-gradient(#1f1f2b 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.hero-content .glow {
+  background: linear-gradient(to right, #7c3aed, #42a5f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  color: #aaaaaa;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero-btn {
+  padding: 14px 30px;
+  background: linear-gradient(to right, #7c3aed, #42a5f5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
