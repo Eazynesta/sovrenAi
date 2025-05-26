@@ -33,5 +33,5 @@ Sovren AI is a fully offline, privacy-first PDF chat assistant powered by a loca
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/sovren-ai.git
-cd sovren-ai
+git clone https://github.com/Eazynesta/sovrenAi.git
+cd sovrenAi
